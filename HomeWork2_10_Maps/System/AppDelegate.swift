@@ -4,16 +4,30 @@
 //
 //  Created by Vlad Ralovich on 11.01.22.
 //
+//google AIzaSyD_fhmWFK1BBzqYNiaaVsGdPt9JIQF8t-0
+//yandex 1cbb6be3-ad08-47cc-bc83-82c7a96d010d
 
 import UIKit
+import GoogleMaps
+import YandexMapKit
+import CoreLocation
+import CoreTelephony
+import SystemConfiguration
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    let locationManager = CLLocationManager()
+//    var mapKit: YMKMapKit?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyD_fhmWFK1BBzqYNiaaVsGdPt9JIQF8t-0")
+        YMKMapKit.setApiKey("1cbb6be3-ad08-47cc-bc83-82c7a96d010d")
+//        YMKMapKit.sharedInstance()
+//        YMKMapKit.setLocale("ru_RUS")
+//        self.mapKit = YMKMapKit.sharedInstance()
+//        self.mapKit?.onStart()
+        locationManager.requestAlwaysAuthorization()
         return true
     }
 

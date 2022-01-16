@@ -7,23 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3159503278F13C4000A52CE /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3159502278F13C4000A52CE /* Artwork.swift */; };
+		E368845D279064C50027D358 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BC903F27902BC5007B5C3C /* libc++.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E3688460279068F80027D358 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E368845F279068F80027D358 /* GoogleMaps.bundle */; };
+		E36E72642792FBFC00978C31 /* YandexMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36E72632792FBFC00978C31 /* YandexMapKit.framework */; };
+		E36E72682793033200978C31 /* YandexRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36E72672793033100978C31 /* YandexRuntime.framework */; };
+		E36E726C279304A700978C31 /* YandexMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E36E726B279304A700978C31 /* YandexMapKit.bundle */; };
 		E3880AFA278E10A900ADAEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3880AF9278E10A900ADAEFF /* AppDelegate.swift */; };
 		E3880AFC278E10A900ADAEFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3880AFB278E10A900ADAEFF /* SceneDelegate.swift */; };
-		E3880AFE278E10A900ADAEFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3880AFD278E10A900ADAEFF /* ViewController.swift */; };
-		E3880B01278E10A900ADAEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3880AFF278E10A900ADAEFF /* Main.storyboard */; };
+		E3880AFE278E10A900ADAEFF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3880AFD278E10A900ADAEFF /* MainViewController.swift */; };
 		E3880B03278E10AF00ADAEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3880B02278E10AF00ADAEFF /* Assets.xcassets */; };
 		E3880B06278E10AF00ADAEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3880B04278E10AF00ADAEFF /* LaunchScreen.storyboard */; };
+		E3F8FAE1279060F300E1883D /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BC904C27902ECC007B5C3C /* GoogleMapsBase.framework */; };
+		E3F8FAE3279060F500E1883D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BC904E27902ECC007B5C3C /* GoogleMaps.framework */; };
+		E3F8FAE5279060F800E1883D /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BC904D27902ECC007B5C3C /* GoogleMapsCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3159502278F13C4000A52CE /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		E368845F279068F80027D358 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Carthage/Build/iOS/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		E36E72632792FBFC00978C31 /* YandexMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexMapKit.framework; path = Carthage/Build/iOS/YandexMapKit.framework; sourceTree = "<group>"; };
+		E36E72672793033100978C31 /* YandexRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexRuntime.framework; path = Carthage/Build/iOS/YandexRuntime.framework; sourceTree = "<group>"; };
+		E36E726B279304A700978C31 /* YandexMapKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = YandexMapKit.bundle; path = Carthage/Build/iOS/YandexMapKit.framework/Versions/A/Resources/YandexMapKit.bundle; sourceTree = "<group>"; };
 		E3880AF6278E10A900ADAEFF /* HomeWork2_10_Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork2_10_Maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3880AF9278E10A900ADAEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3880AFB278E10A900ADAEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E3880AFD278E10A900ADAEFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3880B00278E10A900ADAEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3880AFD278E10A900ADAEFF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E3880B02278E10AF00ADAEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3880B05278E10AF00ADAEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3880B07278E10AF00ADAEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BC902D27902B4D007B5C3C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E3BC902F27902B5C007B5C3C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E3BC903127902B69007B5C3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3BC903327902B78007B5C3C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		E3BC903527902B7E007B5C3C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E3BC903727902B8B007B5C3C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E3BC903827902B8B007B5C3C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		E3BC903B27902BA5007B5C3C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E3BC903D27902BAB007B5C3C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E3BC903F27902BC5007B5C3C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E3BC904027902BCD007B5C3C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E3BC904127902BD8007B5C3C /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		E3BC904327902BE2007B5C3C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E3BC904527902BF8007B5C3C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E3BC904727902C01007B5C3C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E3BC904927902C0C007B5C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3BC904C27902ECC007B5C3C /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Carthage/Build/iOS/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		E3BC904D27902ECC007B5C3C /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Carthage/Build/iOS/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		E3BC904E27902ECC007B5C3C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Carthage/Build/iOS/GoogleMaps.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +62,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36E72642792FBFC00978C31 /* YandexMapKit.framework in Frameworks */,
+				E368845D279064C50027D358 /* libc++.tbd in Frameworks */,
+				E36E72682793033200978C31 /* YandexRuntime.framework in Frameworks */,
+				E3F8FAE3279060F500E1883D /* GoogleMaps.framework in Frameworks */,
+				E3F8FAE5279060F800E1883D /* GoogleMapsCore.framework in Frameworks */,
+				E3F8FAE1279060F300E1883D /* GoogleMapsBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,7 @@
 			children = (
 				E3880AF8278E10A900ADAEFF /* HomeWork2_10_Maps */,
 				E3880AF7278E10A900ADAEFF /* Products */,
+				E3BC901927902AB0007B5C3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,61 @@
 		E3880AF8278E10A900ADAEFF /* HomeWork2_10_Maps */ = {
 			isa = PBXGroup;
 			children = (
-				E3880AF9278E10A900ADAEFF /* AppDelegate.swift */,
-				E3880AFB278E10A900ADAEFF /* SceneDelegate.swift */,
-				E3880AFD278E10A900ADAEFF /* ViewController.swift */,
-				E3880AFF278E10A900ADAEFF /* Main.storyboard */,
+				E3159502278F13C4000A52CE /* Artwork.swift */,
+				E3880B0E278E1E1B00ADAEFF /* System */,
+				E3880B0D278E1E0D00ADAEFF /* ViewControllers */,
 				E3880B02278E10AF00ADAEFF /* Assets.xcassets */,
 				E3880B04278E10AF00ADAEFF /* LaunchScreen.storyboard */,
 				E3880B07278E10AF00ADAEFF /* Info.plist */,
 			);
 			path = HomeWork2_10_Maps;
+			sourceTree = "<group>";
+		};
+		E3880B0D278E1E0D00ADAEFF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3880AFD278E10A900ADAEFF /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E3880B0E278E1E1B00ADAEFF /* System */ = {
+			isa = PBXGroup;
+			children = (
+				E3880AF9278E10A900ADAEFF /* AppDelegate.swift */,
+				E3880AFB278E10A900ADAEFF /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		E3BC901927902AB0007B5C3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E36E72672793033100978C31 /* YandexRuntime.framework */,
+				E36E72632792FBFC00978C31 /* YandexMapKit.framework */,
+				E36E726B279304A700978C31 /* YandexMapKit.bundle */,
+				E368845F279068F80027D358 /* GoogleMaps.bundle */,
+				E3BC904E27902ECC007B5C3C /* GoogleMaps.framework */,
+				E3BC904C27902ECC007B5C3C /* GoogleMapsBase.framework */,
+				E3BC904D27902ECC007B5C3C /* GoogleMapsCore.framework */,
+				E3BC904927902C0C007B5C3C /* UIKit.framework */,
+				E3BC904727902C01007B5C3C /* SystemConfiguration.framework */,
+				E3BC904527902BF8007B5C3C /* QuartzCore.framework */,
+				E3BC904327902BE2007B5C3C /* OpenGLES.framework */,
+				E3BC904127902BD8007B5C3C /* Metal.framework */,
+				E3BC904027902BCD007B5C3C /* libz.tbd */,
+				E3BC903F27902BC5007B5C3C /* libc++.tbd */,
+				E3BC903D27902BAB007B5C3C /* ImageIO.framework */,
+				E3BC903B27902BA5007B5C3C /* GLKit.framework */,
+				E3BC903727902B8B007B5C3C /* CoreTelephony.framework */,
+				E3BC903827902B8B007B5C3C /* CoreText.framework */,
+				E3BC903527902B7E007B5C3C /* CoreLocation.framework */,
+				E3BC903327902B78007B5C3C /* CoreImage.framework */,
+				E3BC903127902B69007B5C3C /* CoreGraphics.framework */,
+				E3BC902F27902B5C007B5C3C /* CoreData.framework */,
+				E3BC902D27902B4D007B5C3C /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +161,7 @@
 				E3880AF2278E10A900ADAEFF /* Sources */,
 				E3880AF3278E10A900ADAEFF /* Frameworks */,
 				E3880AF4278E10A900ADAEFF /* Resources */,
+				E30652D6279356B300F4BD28 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,20 +210,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3688460279068F80027D358 /* GoogleMaps.bundle in Resources */,
 				E3880B06278E10AF00ADAEFF /* LaunchScreen.storyboard in Resources */,
+				E36E726C279304A700978C31 /* YandexMapKit.bundle in Resources */,
 				E3880B03278E10AF00ADAEFF /* Assets.xcassets in Resources */,
-				E3880B01278E10A900ADAEFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E30652D6279356B300F4BD28 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone\n\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E3880AF2278E10A900ADAEFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3880AFE278E10A900ADAEFF /* ViewController.swift in Sources */,
+				E3159503278F13C4000A52CE /* Artwork.swift in Sources */,
+				E3880AFE278E10A900ADAEFF /* MainViewController.swift in Sources */,
 				E3880AFA278E10A900ADAEFF /* AppDelegate.swift in Sources */,
 				E3880AFC278E10A900ADAEFF /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +254,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E3880AFF278E10A900ADAEFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3880B00278E10A900ADAEFF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E3880B04278E10AF00ADAEFF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -217,10 +316,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-Objc";
+				"OTHER_LDFLAGS[arch=*]" = "-Objc";
+				OTHER_LIBTOOLFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -272,9 +374,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-Objc";
+				"OTHER_LDFLAGS[arch=*]" = "-Objc";
+				OTHER_LIBTOOLFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -290,23 +395,36 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E4F3RD8E26;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = HomeWork2_10_Maps/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"$(inherited)",
+					"-all_load",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vonkad.HomeWork2-10-Maps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,23 +436,36 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E4F3RD8E26;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = HomeWork2_10_Maps/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"$(inherited)",
+					"-all_load",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vonkad.HomeWork2-10-Maps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
