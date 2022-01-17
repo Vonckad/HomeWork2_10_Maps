@@ -25,8 +25,10 @@ class MainViewController: UIViewController {
     let appleMapView = MKMapView()
     var googleMapView = GMSMapView()
     var initZoomGoogleMapView: Float = 14
+    var initZoomYandexMapView: Float = 14
     var yandexMapView = YMKMapView()
     let yandexMapKit = YMKMapKit.sharedInstance()
+    var yandexUserLocation: YMKUserLocationLayer?
     
     var artworks: [Artwork] = [
         Artwork(title: "Пешеходный проспект Чумбарова-Лучинского", locationName: "", discipline: "", coordinate: CLLocationCoordinate2D(latitude: 64.53552490468529, longitude: 40.52725168714141)),
@@ -49,13 +51,13 @@ class MainViewController: UIViewController {
         //init yandexMapView
         yandexMapView.frame = view.bounds
         yandexMapView.mapWindow.map.move(
-            with: YMKCameraPosition.init(target: YMKPoint(latitude: initialLocation.coordinate.latitude, longitude: initialLocation.coordinate.longitude), zoom: initZoomGoogleMapView, azimuth: 0, tilt: 0),
-            animationType: YMKAnimation(type: YMKAnimationType.smooth, duration: 5),
+            with: YMKCameraPosition.init(target: YMKPoint(latitude: initialLocation.coordinate.latitude, longitude: initialLocation.coordinate.longitude), zoom: initZoomYandexMapView, azimuth: 0, tilt: 0),
+            animationType: YMKAnimation(type: YMKAnimationType.smooth, duration: 1),
             cameraCallback: nil)
-        let yandexUserLocation = yandexMapKit.createUserLocationLayer(with: yandexMapView.mapWindow)
-        yandexUserLocation.setVisibleWithOn(true)
-        yandexUserLocation.isHeadingEnabled = true
-        yandexUserLocation.setObjectListenerWith(self)
+        yandexUserLocation = yandexMapKit.createUserLocationLayer(with: yandexMapView.mapWindow)
+        yandexUserLocation?.setVisibleWithOn(true)
+        yandexUserLocation?.isHeadingEnabled = true
+
         view.addSubview(yandexMapView)
         yandexMapView.isHidden = true
         
@@ -70,12 +72,16 @@ class MainViewController: UIViewController {
         setupButtons()
         setupMenuButtons()
         
+        let objectsYandex = yandexMapView.mapWindow.map.mapObjects
+        // add markers on google map
         for (index, artwork) in artworks.enumerated() {
             let marker = GMSMarker()
             marker.position = artwork.coordinate
             marker.title = artwork.title
             marker.icon = UIImage(named: "\(index + 1)")
             marker.map = googleMapView
+            // add markers on yandex map
+            objectsYandex.addPlacemark(with: YMKPoint(latitude: artwork.coordinate.latitude, longitude: artwork.coordinate.longitude), image: UIImage(named: "\(index + 1)")!)
         }
     }
     
@@ -198,6 +204,17 @@ class MainViewController: UIViewController {
                 initZoomGoogleMapView -= 1
             }
             googleMapView.animate(toZoom: initZoomGoogleMapView)
+        case is YMKMapView:
+            print("YMKMapView")
+            
+            if bool {
+                initZoomYandexMapView += 1
+            } else {
+                initZoomYandexMapView -= 1
+            }
+            let cameraPosition = yandexMapView.mapWindow.map.cameraPosition
+            let position = YMKCameraPosition(target: cameraPosition.target, zoom: initZoomYandexMapView, azimuth: 0, tilt: 0)
+            yandexMapView.mapWindow.map.move(with: position, animationType: YMKAnimation(type: YMKAnimationType.smooth, duration: 0.33))
         default:
             break
         }
@@ -218,12 +235,12 @@ class MainViewController: UIViewController {
         case is GMSMapView:
             guard let location = googleMapView.myLocation else { return }
             googleMapView.animate(toLocation: location.coordinate)
-            googleMapView.animate(toZoom: 16)
-//        case is YMKMapView:
-//            yandexMapView.mapWindow.map.move(
-//                with: YMKCameraPosition.init(target: YMKPoint(latitude: initialLocation.coordinate.latitude, longitude: initialLocation.coordinate.longitude), zoom: initZoomGoogleMapView, azimuth: 0, tilt: 0),
-//                animationType: YMKAnimation(type: YMKAnimationType.smooth, duration: 5),
-//                cameraCallback: nil)
+            initZoomGoogleMapView = 16
+            googleMapView.animate(toZoom: initZoomGoogleMapView)
+        case is YMKMapView:
+            initZoomYandexMapView = 16
+            let position = YMKCameraPosition(target: yandexUserLocation!.cameraPosition()!.target, zoom: initZoomYandexMapView, azimuth: 0, tilt: 0)
+            yandexMapView.mapWindow.map.move(with: position, animationType: YMKAnimation(type: YMKAnimationType.smooth, duration: 1))
         default:
             break
         }
@@ -306,6 +323,34 @@ extension MainViewController: GMSMapViewDelegate {
 extension MainViewController: YMKUserLocationObjectListener {
     func onObjectAdded(with view: YMKUserLocationView) {
         print("onObjectAdded")
+        view.arrow.setIconWith(UIImage(named:"UserArrow")!)
+        
+        let pinPlacemark = view.pin.useCompositeIcon()
+        
+        pinPlacemark.setIconWithName("icon",
+            image: UIImage(named:"Icon")!,
+            style:YMKIconStyle(
+                anchor: CGPoint(x: 0, y: 0) as NSValue,
+                rotationType:YMKRotationType.rotate.rawValue as NSNumber,
+                zIndex: 0,
+                flat: true,
+                visible: true,
+                scale: 1.5,
+                tappableArea: nil))
+        
+        pinPlacemark.setIconWithName(
+            "pin",
+            image: UIImage(named:"SearchResult")!,
+            style:YMKIconStyle(
+                anchor: CGPoint(x: 0.5, y: 0.5) as NSValue,
+                rotationType:YMKRotationType.rotate.rawValue as NSNumber,
+                zIndex: 1,
+                flat: true,
+                visible: true,
+                scale: 1,
+                tappableArea: nil))
+
+        view.accuracyCircle.fillColor = UIColor.blue
     }
     
     func onObjectRemoved(with view: YMKUserLocationView) {
