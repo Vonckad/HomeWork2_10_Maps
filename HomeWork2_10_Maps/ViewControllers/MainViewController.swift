@@ -8,7 +8,7 @@
 import UIKit
 import MapKit
 import GoogleMaps
-import YandexMapKit
+import YandexMapsMobile
 
 class MainViewController: UIViewController {
     

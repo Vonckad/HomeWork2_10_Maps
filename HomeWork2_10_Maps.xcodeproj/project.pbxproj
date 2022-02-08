@@ -7,28 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A88F59BFBE8B2FA9691E61C /* Pods_HomeWork2_10_Maps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE53B6512E9925659E02A30 /* Pods_HomeWork2_10_Maps.framework */; };
 		E3159503278F13C4000A52CE /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3159502278F13C4000A52CE /* Artwork.swift */; };
-		E368845D279064C50027D358 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BC903F27902BC5007B5C3C /* libc++.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
-		E3688460279068F80027D358 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E368845F279068F80027D358 /* GoogleMaps.bundle */; };
-		E36E72642792FBFC00978C31 /* YandexMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36E72632792FBFC00978C31 /* YandexMapKit.framework */; };
-		E36E72682793033200978C31 /* YandexRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36E72672793033100978C31 /* YandexRuntime.framework */; };
-		E36E726C279304A700978C31 /* YandexMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E36E726B279304A700978C31 /* YandexMapKit.bundle */; };
 		E3880AFA278E10A900ADAEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3880AF9278E10A900ADAEFF /* AppDelegate.swift */; };
 		E3880AFC278E10A900ADAEFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3880AFB278E10A900ADAEFF /* SceneDelegate.swift */; };
 		E3880AFE278E10A900ADAEFF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3880AFD278E10A900ADAEFF /* MainViewController.swift */; };
 		E3880B03278E10AF00ADAEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3880B02278E10AF00ADAEFF /* Assets.xcassets */; };
 		E3880B06278E10AF00ADAEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3880B04278E10AF00ADAEFF /* LaunchScreen.storyboard */; };
-		E3F8FAE1279060F300E1883D /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BC904C27902ECC007B5C3C /* GoogleMapsBase.framework */; };
-		E3F8FAE3279060F500E1883D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BC904E27902ECC007B5C3C /* GoogleMaps.framework */; };
-		E3F8FAE5279060F800E1883D /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BC904D27902ECC007B5C3C /* GoogleMapsCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BE53B6512E9925659E02A30 /* Pods_HomeWork2_10_Maps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWork2_10_Maps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23D7885B466B647086CFB7C /* Pods-HomeWork2_10_Maps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork2_10_Maps.debug.xcconfig"; path = "Target Support Files/Pods-HomeWork2_10_Maps/Pods-HomeWork2_10_Maps.debug.xcconfig"; sourceTree = "<group>"; };
+		D985AAA2E09BF72CE4A3ED90 /* Pods-HomeWork2_10_Maps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork2_10_Maps.release.xcconfig"; path = "Target Support Files/Pods-HomeWork2_10_Maps/Pods-HomeWork2_10_Maps.release.xcconfig"; sourceTree = "<group>"; };
 		E3159502278F13C4000A52CE /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
-		E368845F279068F80027D358 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Carthage/Build/iOS/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		E36E72632792FBFC00978C31 /* YandexMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexMapKit.framework; path = Carthage/Build/iOS/YandexMapKit.framework; sourceTree = "<group>"; };
-		E36E72672793033100978C31 /* YandexRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexRuntime.framework; path = Carthage/Build/iOS/YandexRuntime.framework; sourceTree = "<group>"; };
-		E36E726B279304A700978C31 /* YandexMapKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = YandexMapKit.bundle; path = Carthage/Build/iOS/YandexMapKit.framework/Versions/A/Resources/YandexMapKit.bundle; sourceTree = "<group>"; };
 		E3880AF6278E10A900ADAEFF /* HomeWork2_10_Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork2_10_Maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3880AF9278E10A900ADAEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3880AFB278E10A900ADAEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,25 +28,6 @@
 		E3880B02278E10AF00ADAEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3880B05278E10AF00ADAEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3880B07278E10AF00ADAEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3BC902D27902B4D007B5C3C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		E3BC902F27902B5C007B5C3C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		E3BC903127902B69007B5C3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E3BC903327902B78007B5C3C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		E3BC903527902B7E007B5C3C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		E3BC903727902B8B007B5C3C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		E3BC903827902B8B007B5C3C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		E3BC903B27902BA5007B5C3C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		E3BC903D27902BAB007B5C3C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		E3BC903F27902BC5007B5C3C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		E3BC904027902BCD007B5C3C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		E3BC904127902BD8007B5C3C /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
-		E3BC904327902BE2007B5C3C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		E3BC904527902BF8007B5C3C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		E3BC904727902C01007B5C3C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		E3BC904927902C0C007B5C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E3BC904C27902ECC007B5C3C /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Carthage/Build/iOS/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		E3BC904D27902ECC007B5C3C /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Carthage/Build/iOS/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		E3BC904E27902ECC007B5C3C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Carthage/Build/iOS/GoogleMaps.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,24 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E36E72642792FBFC00978C31 /* YandexMapKit.framework in Frameworks */,
-				E368845D279064C50027D358 /* libc++.tbd in Frameworks */,
-				E36E72682793033200978C31 /* YandexRuntime.framework in Frameworks */,
-				E3F8FAE3279060F500E1883D /* GoogleMaps.framework in Frameworks */,
-				E3F8FAE5279060F800E1883D /* GoogleMapsCore.framework in Frameworks */,
-				E3F8FAE1279060F300E1883D /* GoogleMapsBase.framework in Frameworks */,
+				3A88F59BFBE8B2FA9691E61C /* Pods_HomeWork2_10_Maps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0177BC52B9193F020E7EBCF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A23D7885B466B647086CFB7C /* Pods-HomeWork2_10_Maps.debug.xcconfig */,
+				D985AAA2E09BF72CE4A3ED90 /* Pods-HomeWork2_10_Maps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E3880AED278E10A900ADAEFF = {
 			isa = PBXGroup;
 			children = (
 				E3880AF8278E10A900ADAEFF /* HomeWork2_10_Maps */,
 				E3880AF7278E10A900ADAEFF /* Products */,
 				E3BC901927902AB0007B5C3C /* Frameworks */,
+				0177BC52B9193F020E7EBCF6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,29 +102,7 @@
 		E3BC901927902AB0007B5C3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E36E72672793033100978C31 /* YandexRuntime.framework */,
-				E36E72632792FBFC00978C31 /* YandexMapKit.framework */,
-				E36E726B279304A700978C31 /* YandexMapKit.bundle */,
-				E368845F279068F80027D358 /* GoogleMaps.bundle */,
-				E3BC904E27902ECC007B5C3C /* GoogleMaps.framework */,
-				E3BC904C27902ECC007B5C3C /* GoogleMapsBase.framework */,
-				E3BC904D27902ECC007B5C3C /* GoogleMapsCore.framework */,
-				E3BC904927902C0C007B5C3C /* UIKit.framework */,
-				E3BC904727902C01007B5C3C /* SystemConfiguration.framework */,
-				E3BC904527902BF8007B5C3C /* QuartzCore.framework */,
-				E3BC904327902BE2007B5C3C /* OpenGLES.framework */,
-				E3BC904127902BD8007B5C3C /* Metal.framework */,
-				E3BC904027902BCD007B5C3C /* libz.tbd */,
-				E3BC903F27902BC5007B5C3C /* libc++.tbd */,
-				E3BC903D27902BAB007B5C3C /* ImageIO.framework */,
-				E3BC903B27902BA5007B5C3C /* GLKit.framework */,
-				E3BC903727902B8B007B5C3C /* CoreTelephony.framework */,
-				E3BC903827902B8B007B5C3C /* CoreText.framework */,
-				E3BC903527902B7E007B5C3C /* CoreLocation.framework */,
-				E3BC903327902B78007B5C3C /* CoreImage.framework */,
-				E3BC903127902B69007B5C3C /* CoreGraphics.framework */,
-				E3BC902F27902B5C007B5C3C /* CoreData.framework */,
-				E3BC902D27902B4D007B5C3C /* Accelerate.framework */,
+				5BE53B6512E9925659E02A30 /* Pods_HomeWork2_10_Maps.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,10 +114,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3880B0A278E10AF00ADAEFF /* Build configuration list for PBXNativeTarget "HomeWork2_10_Maps" */;
 			buildPhases = (
+				1FD2AFDB5BACB8F0A848841E /* [CP] Check Pods Manifest.lock */,
 				E3880AF2278E10A900ADAEFF /* Sources */,
 				E3880AF3278E10A900ADAEFF /* Frameworks */,
 				E3880AF4278E10A900ADAEFF /* Resources */,
-				E30652D6279356B300F4BD28 /* ShellScript */,
+				B9F03F676C3AD802BFBF1FE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,9 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3688460279068F80027D358 /* GoogleMaps.bundle in Resources */,
 				E3880B06278E10AF00ADAEFF /* LaunchScreen.storyboard in Resources */,
-				E36E726C279304A700978C31 /* YandexMapKit.bundle in Resources */,
 				E3880B03278E10AF00ADAEFF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +175,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E30652D6279356B300F4BD28 /* ShellScript */ = {
+		1FD2AFDB5BACB8F0A848841E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,14 +183,36 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeWork2_10_Maps-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\n\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone\n\n/usr/local/bin/carthage copy-frameworks\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F03F676C3AD802BFBF1FE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork2_10_Maps/Pods-HomeWork2_10_Maps-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork2_10_Maps/Pods-HomeWork2_10_Maps-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeWork2_10_Maps/Pods-HomeWork2_10_Maps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -389,17 +366,13 @@
 		};
 		E3880B0B278E10AF00ADAEFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23D7885B466B647086CFB7C /* Pods-HomeWork2_10_Maps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E4F3RD8E26;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)",
-				);
 				GENERATE_INFOPLIST_FILE = YES;
 				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = HomeWork2_10_Maps/Info.plist;
@@ -414,11 +387,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-lc++",
-					"$(inherited)",
-					"-all_load",
-				);
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vonkad.HomeWork2-10-Maps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,17 +398,13 @@
 		};
 		E3880B0C278E10AF00ADAEFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D985AAA2E09BF72CE4A3ED90 /* Pods-HomeWork2_10_Maps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E4F3RD8E26;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)",
-				);
 				GENERATE_INFOPLIST_FILE = YES;
 				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = HomeWork2_10_Maps/Info.plist;
@@ -455,11 +419,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-lc++",
-					"$(inherited)",
-					"-all_load",
-				);
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vonkad.HomeWork2-10-Maps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
