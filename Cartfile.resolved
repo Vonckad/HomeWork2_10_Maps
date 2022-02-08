@@ -1,3 +1,0 @@
-binary "https://dl.google.com/geosdk/GoogleMaps.json" "6.0.1"
-binary "https://raw.githubusercontent.com/ARGAMX/Carthage-Specs/master/iOS/YandexMapKit.json" "3.5.0"
-binary "https://raw.githubusercontent.com/ARGAMX/Carthage-Specs/master/iOS/YandexRuntime.json" "3.5.1"
